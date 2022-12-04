@@ -1,0 +1,27 @@
+{
+  "name": "bstemplatesgenerator",
+  "displayName": "Bs templates generator",
+  "description": "Простой генератор Bootstrap шаблонов",
+  "version": "1.0.0",
+  "publisher": "Renat Mirzabekov",
+  "icon": "icon.jpg",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      },
+
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
